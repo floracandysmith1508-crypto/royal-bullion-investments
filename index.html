@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Royal Bullion Investments - Learn about gold mining and precious metals investment.">
+  <title>Royal Bullion Investments</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 7%;
+      border-bottom: 1px solid #b99642;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo {
+      color: #d8b45b;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 85px 7%;
+      text-align: center;
+      background: linear-gradient(145deg, #17130a, #080808 70%);
+    }
+
+    .hero h1 {
+      color: #e0bd63;
+      font-size: clamp(32px, 6vw, 55px);
+      line-height: 1.2;
+      margin-bottom: 22px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 28px;
+      color: #d1d1d1;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 24px;
+      background: #d8b45b;
+      color: #080808;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 5px;
+    }
+
+    .outline {
+      background: transparent;
+      border: 1px solid #d8b45b;
+      color: #d8b45b;
+    }
+
+    section {
+      padding: 55px 7%;
+    }
+
+    h2 {
+      color: #e0bd63;
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 29px;
+    }
+
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: #d0d0d0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #141414;
+      border: 1px solid #4e4021;
+      border-radius: 9px;
+      padding: 25px;
+    }
+
+    .card h3 {
+      color: #d8b45b;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 15px;
+    }
+
+    .notice {
+      background: #17130a;
+      border-left: 4px solid #d8b45b;
+      padding: 20px;
+      margin-top: 25px;
+      color: #ddd;
+    }
+
+    .contact {
+      text-align: center;
+      background: #111;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #4e4021;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 65px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">♛ ROYAL BULLION</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Our Focus</a>
+      <a href="#risks">Risks</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Discover the World of Gold</h1>
+      <p>
+        Welcome to Royal Bullion Investments. Explore gold mining,
+        precious metals, and the opportunities and risks associated
+        with the gold investment market.
+      </p>
+      <a class="button" href="#about">Discover More</a>
+      <a class="button outline" href="#contact">Contact Us</a>
+    </section>
+
+    <section id="about">
+      <h2>About Royal Bullion</h2>
+      <p class="intro">
+        Royal Bullion Investments is a gold-focused investment concept
+        dedicated to sharing information about precious metals and
+        gold mining. Our goal is to help visitors understand the market
+        before making informed financial decisions.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Investment Focus</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Gold Mining</h3>
+          <p>
+            Learn how gold exploration and mining work, including the
+            costs, operational challenges, and market uncertainties.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Precious Metals</h3>
+          <p>
+            Explore the factors that influence gold prices and the
+            role precious metals can play in a diversified portfolio.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Investment Education</h3>
+          <p>
+            Understand investment objectives, time horizons, liquidity,
+            and the importance of independent financial research.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="risks">
+      <h2>Understand the Risks</h2>
+      <p class="intro">
+        Gold mining and precious metals investments involve risk.
+        Prices can fall, projects can lose money, and returns are
+        never guaranteed. Review all available documentation and
+        seek independent financial advice before investing.
+      </p>
+      <div class="notice">
+        <strong>Important notice:</strong> This website is an
+        informational demonstration. It does not accept investments,
+        process payments, or promise financial returns. Any future
+        investment service must have appropriate legal authorization,
+        clear terms, and secure systems.
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Royal Bullion</h2>
+      <p>
+        Interested in learning more? Contact our team for information
+        about our services and business.
+      </p>
+      <p style="margin-top: 15px; color: #d8b45b;">
+        Contact details coming soon.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Royal Bullion Investments. All rights reserved.
+    <br>
+    Investment values can rise or fall. No returns are guaranteed.
+  </footer>
+
+</body>
+</html>
